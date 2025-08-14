@@ -9,11 +9,10 @@ int main() {
   cin >> angka;
 
   if (angka % 2 == 0) {
-    cout << angka << "adalah bilangan GENAP." << endl;
+    cout << angka << " adalah bilangan GENAP." << endl;
   } else {
-    cout << angka << "adalah bilangan GANJIL." << endl;
+    cout << angka << " adalah bilangan GANJIL." << endl;
   }
 
  return 0;
 }
-
