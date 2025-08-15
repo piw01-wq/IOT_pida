@@ -10,7 +10,7 @@ int main() {
   int year;
   cout << "masukkan tahun: ";
   cin >> year;
-      if (isLeapYear(year)} {
+      if (isLeapYear(year)) {
       cout << year << "adalah tahun kabisat." << endl;
 } else {
       cout << year << " bukan tahun kabisat." << endl;
