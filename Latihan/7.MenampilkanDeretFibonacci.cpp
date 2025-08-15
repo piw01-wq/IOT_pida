@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void fibonacci(int n) {
-  int first = 0, srcond = 1, next;
+  int first = 0, second = 1, next;
   cout << "Deret Fibonacci (" << n << " suku): ";
   for (int i = 0; i < n; i++) {
     if (i <= 1)
