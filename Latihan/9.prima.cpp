@@ -5,7 +5,7 @@ bool isPrime(int n) {
 if (n <= 1) {
     return false; //bilangan <= 1 bukan prima
 }
-if (n == 2)
+if (n == 2) {
     return true; //2 adalah bilangan prima
 }
 if (n % 2 == 0) {
@@ -18,7 +18,7 @@ for (int i = 3; i <= sqrt(n); i +=2) {
     }
  }
  return true; //bilangan prima
-}
+ }
 
 int main() {
   int number;
@@ -34,5 +34,3 @@ if (isPrime(number)) {
 
 return 0;
 }
-
-
