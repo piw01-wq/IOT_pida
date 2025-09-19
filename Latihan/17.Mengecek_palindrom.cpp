@@ -9,7 +9,7 @@ int main() {
   getline (cin, teks);
   asli = teks;
 
-  teks.erase(remove(teks.begin(), teks.end()), teks.end());
+  teks.erase(remove(teks.begin(), teks.end(), ' '), teks.end());
   transform(teks.begin(), teks.end(), teks.begin(), ::tolower);
   string terbalik = teks;
   reverse(terbalik.begin(), terbalik.end());
