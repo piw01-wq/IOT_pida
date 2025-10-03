@@ -5,17 +5,17 @@ int luas(int sisi) {
   return sisi * sisi;
 }
 
-doubel luas(int panjang * lebar) {
+double luas(int panjang, int lebar) {
   return panjang * lebar;
 }
 
-doubel luas(doubel jari) {
+double luas(double jari) {
   return 3.14 * jari * jari;
 }
 
 int main() {
   int sisi, panjang, lebar;
-  doubel jari;
+  double jari;
 
   cout << "Masukkan sisi persegi : ";
   cin >> sisi;
